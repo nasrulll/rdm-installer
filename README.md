@@ -16,3 +16,22 @@ Installer otomatis RDM (MTS & MA) berbasis Ubuntu.
 ## Install cepat
 ```bash
 sudo bash <(curl -fsSL https://raw.githubusercontent.com/USERNAME/rdm-installer/main/install.sh)
+
+## Custom domain
+
+MTS_DOMAIN=rdmts.al-badar.net \
+MA_DOMAIN=rdma.al-badar.net \
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/USERNAME/rdm-installer/main/install.sh)
+
+
+---
+
+# 🚀 CARA PUSH KE GITHUB
+
+```bash
+git init
+git add .
+git commit -m "Initial RDM installer"
+git branch -M main
+git remote add origin https://github.com/USERNAME/rdm-installer.git
+git push -u origin main
